@@ -1,0 +1,445 @@
+{
+  "output_file": "settings.json",
+  "Username": {
+    "type": "textbox",
+    "value": "",
+    "label": "Channel Username",
+    "tooltip": "Username of the channel this will interact with.",
+    "group": "Main"
+  },
+  "OauthToken": {
+    "type": "textbox",
+    "value": "",
+    "label": "Oauth Token (Do Not Share)",
+    "tooltip": "The oauth token used to interact with the channel.",
+    "group": "Main"
+  },
+  "RewardName1": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 1"
+  },
+  "SceneName1": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 1"
+  },
+  "SourceName1": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 1"
+  },
+  "ToggleTime1": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 1"
+  },
+  "RewardName2": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 2"
+  },
+  "SceneName2": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 2"
+  },
+  "SourceName2": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 2"
+  },
+  "ToggleTime2": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 2"
+  },
+  "RewardName3": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 3"
+  },
+  "SceneName3": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 3"
+  },
+  "SourceName3": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 3"
+  },
+  "ToggleTime3": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 3"
+  },
+  "RewardName4": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 4"
+  },
+  "SceneName4": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 4"
+  },
+  "SourceName4": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 4"
+  },
+  "ToggleTime4": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 4"
+  },
+  "RewardName5": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 5"
+  },
+  "SceneName5": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 5"
+  },
+  "SourceName5": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 5"
+  },
+  "ToggleTime5": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 5"
+  },
+  "RewardName6": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 6"
+  },
+  "SceneName6": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 6"
+  },
+  "SourceName6": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 6"
+  },
+  "ToggleTime6": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 6"
+  },
+  "RewardName7": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 7"
+  },
+  "SceneName7": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 7"
+  },
+  "SourceName7": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 7"
+  },
+  "ToggleTime7": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 7"
+  },
+  "RewardName8": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 8"
+  },
+  "SceneName8": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 8"
+  },
+  "SourceName8": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 8"
+  },
+  "ToggleTime8": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 8"
+  },
+  "RewardName9": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 9"
+  },
+  "SceneName9": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 9"
+  },
+  "SourceName9": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 9"
+  },
+  "ToggleTime9": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 9"
+  },
+  "RewardName10": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 10"
+  },
+  "SceneName10": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 10"
+  },
+  "SourceName10": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 10"
+  },
+  "ToggleTime10": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 10"
+  },
+  "RewardName11": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 11"
+  },
+  "SceneName11": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 11"
+  },
+  "SourceName11": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 11"
+  },
+  "ToggleTime11": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 11"
+  },
+  "RewardName12": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 12"
+  },
+  "SceneName12": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 12"
+  },
+  "SourceName12": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 12"
+  },
+  "ToggleTime12": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 12"
+  },
+  "RewardName13": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 13"
+  },
+  "SceneName13": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 13"
+  },
+  "SourceName13": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 13"
+  },
+  "ToggleTime13": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 13"
+  },
+  "RewardName14": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 14"
+  },
+  "SceneName14": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 14"
+  },
+  "SourceName14": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 14"
+  },
+  "ToggleTime14": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 14"
+  },
+  "RewardName15": {
+    "type": "textbox",
+    "value": "",
+    "label": "Reward Name",
+    "tooltip": "The reward used to trigger this toggle.",
+    "group": "Reward 15"
+  },
+  "SceneName15": {
+    "type": "textbox",
+    "value": "",
+    "label": "Scene Name",
+    "tooltip": "The name of the scene where the source that will be toggled resides.",
+    "group": "Reward 15"
+  },
+  "SourceName15": {
+    "type": "textbox",
+    "value": "",
+    "label": "Source Name",
+    "tooltip": "The name of the source that will be toggled.",
+    "group": "Reward 15"
+  },
+  "ToggleTime15": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Toggle Duration (Seconds)",
+    "tooltip": "How long the source will be toggled for.",
+    "group": "Reward 15"
+  },
+  "buttonGetOauthToken": {
+    "type": "button",
+    "function": "OauthToken",
+    "wsevent": "",
+    "label": "Get Oauth Token",
+    "tooltip": "Get the token required for this script to run.",
+    "group": ""
+  }
+}
