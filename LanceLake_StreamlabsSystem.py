@@ -136,6 +136,8 @@ def OauthToken():
     return
 
 def Start():
+    Parent.Log(ScriptName, "[" + str(datetime.datetime.now()) + "]" + "Starting receiver");
+
     global EventReceiver
     EventReceiver = TwitchPubSub()
     EventReceiver.OnPubSubServiceConnected += EventReceiverConnected
@@ -152,9 +154,11 @@ def EventReceiverConnected(sender, e):
     result = json.loads(Parent.GetRequest("https://api.twitch.tv/helix/users?login=" + MySet.Username,headers))
     user = json.loads(result["response"])
     id = user["data"][0]["id"]
-    
+
+    Parent.Log(ScriptName, "[" + str(datetime.datetime.now()) + "]" + "Event receiver connected, sending topics for channel id: " + id)
+
     EventReceiver.ListenToRewards(id)
-    EventReceiver.SendTopics()
+    EventReceiver.SendTopics(MySet.OauthToken)
     return
 
 def EventReceiverError(sender, e):
